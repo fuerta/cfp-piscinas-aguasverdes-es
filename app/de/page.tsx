@@ -1,6 +1,6 @@
 import { PageTemplate } from "@/components/page-template"
 import { translations } from "@/lib/translations"
 
-export default function HomePage() {
-  return <PageTemplate locale="es" t={translations.es} />
+export default function GermanPage() {
+  return <PageTemplate locale="de" t={translations.de} />
 }
